@@ -4,7 +4,7 @@ const bot = new Telegraf(process.env.882738691:AAGt6A6hcTyZWeMQFmdF42BdXLmEq_sHI
 bot.start((ctx) => ctx.reply('Welcome dear students. I hope you're ready to discover Prague!'))
 bot.hears('Kafka', (ctx) => ctx.reply('How many details were used to compose his ear?'))
 if (bot.hears('11')) {
-	ctx.reply ('Right! You get 5 points!')' 
+	ctx.reply ('Right! You get 5 points!') 
 } else {
 	ctx.reply ('No :( Give it a second try!')
 	if (bot.hears('11')) {
